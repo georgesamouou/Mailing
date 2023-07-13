@@ -18,7 +18,6 @@ function Login() {
 
             <h2 className=" fw-normal mb-0 me-3">Connexion</h2>
 
-
           </div>
 
 
