@@ -6,7 +6,7 @@ const NavSide = ({displayContent}) => {
         <div className='MenuContainer'>
             <Accordions displayContent={displayContent}/>
             <div className='navFooter'>
-                Amou'ou Georges Junior &copy; 2023
+                Copyright Amou'ou Georges Junior &copy; 2023 All rights reserved.
             </div>
         </div>
     );

@@ -7,11 +7,13 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Login from './Page/Login';
 
 function App() {
   return (
     <div>
-      <Dashboard/>
+      {/*<Dashboard/>*/}
+      <Login/>
     </div>
   );
 }
