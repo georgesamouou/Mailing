@@ -1,3 +1,6 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
 /*********************HEADER**********************************/
 
 .headerContainer{
@@ -13,6 +16,7 @@
 }
 .IconContainer{
   display: flex;
+  cursor: pointer;
 }
 .IconElement{
   cursor: pointer;
@@ -84,6 +88,9 @@
 .MenuContainer{
   background-color: #23282d;
   width: 22%;
+}
+.profil_name{
+  margin: 10px;
 }
 /*********************MAIN END**********************************/
 

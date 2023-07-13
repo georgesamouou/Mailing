@@ -1,12 +1,12 @@
 import React from 'react';
 import Accordions from './Accordion';
 
-const NavSide = () => {
+const NavSide = ({displayContent}) => {
     return (
         <div className='MenuContainer'>
-            <Accordions/>
+            <Accordions displayContent={displayContent}/>
             <div className='navFooter'>
-                &copy; CNPS 2023
+                Amou'ou Georges Junior &copy; 2023
             </div>
         </div>
     );

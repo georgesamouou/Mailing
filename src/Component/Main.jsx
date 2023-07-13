@@ -8,28 +8,17 @@ import Profil from "../ComponentUI/Profil"
 import logo from "../assets/logoCnps.png"
 const Main = () => {
     const [active,setActive] = useState(1)
+    const [userStatus,setUserStatus] = useState("Charger D'exploitation")
     return (
         <div className='mainContainer'>
             <div className='NavigationContainer'>
                 <div className="d_flex mt-2">
-                    <img src={logo} alt="Logo Cnps" className='logoCnps' />
-                    <Navigation setActive={setActive} active={`${active==1?"active":""}`} text="Traitement / Etat"/>
-                    <Navigation setActive={setActive} active={`${active==2?"active":""}`} text="Suivies"/>
-                    <Navigation setActive={setActive} active={`${active==3?"active":""}`} text="Diverses Extraction"/>
+                   { /*<img src={logo} alt="Logo Cnps" className='logoCnps' />*/}
+                    <Navigation setActive={setActive} active={`${active==1?"active":""}`} text={userStatus}/>
+                    
                 </div>
                  <div className='IconContainer mt-2 '>
-                    <div className='IconElement pt-2 pl-2 pr-2'>
-                        <BsGlobe className='white_font'/>
-                        <span className='m-2 '>Dossier en ligne</span>
-                    </div>
-                    <div className='IconElement pt-2 pl-2 pr-2'>
-                    <IoNewspaperOutline className='white_font'/>
-                    <span className='m-2'>Situation Dossier</span> 
-                    </div>
-                    <div className='IconElement pt-2 pl-2 pr-2'>
-                    <AiOutlineBars className='white_font'/>
-                    <span className='m-2'>Historique</span>
-                    </div>
+                    <span className='profil_name'>Profil</span>
                     <Profil/>
                 </div>
             </div>
