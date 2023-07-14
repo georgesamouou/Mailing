@@ -16,7 +16,7 @@ function Login() {
 
           <div className="d-flex flex-row align-items-center justify-content-center">
 
-            <h2 className=" fw-normal mb-0 me-3">Connexion</h2>
+            <h1 className=" fw-normal mb-0 me-3">Connexion</h1>
 
           </div>
 
